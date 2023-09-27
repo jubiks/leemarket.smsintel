@@ -14,8 +14,8 @@ class Sms extends Base
     private $client;
 
     public function __construct() {
-        $this->login = '79097449151';
-        $this->password = 'age7Qu4LwY';
+        $this->login = '';
+        $this->password = '';
         
         $this->client = new Transport($this->login, $this->password);
     }
